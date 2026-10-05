@@ -3049,6 +3049,14 @@ form textarea:required:valid {
   }
 }
 
+.site-logo {
+  width: 75px;            /* same size as the old SVG — layout won't shift */
+  height: 75px;
+  object-fit: cover;      /* fills the square without stretching */
+  border-radius: 50%;     /* trims the black corners into the gold circle emblem */
+  vertical-align: middle; /* aligns neatly with the name text beside it */
+}
+
 .logo__caption {
   padding-left: 2rem;
 }
