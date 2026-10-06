@@ -4287,6 +4287,24 @@ form textarea:required:valid {
 .avatar__block h6 {
   text-align: center;
 }
+
+/* smaller glyphs */
+.socials-square__link i {
+  font-size: 15px;
+}
+
+/* shrink the button boxes to match */
+.socials-square__link {
+  width: 30px;
+  height: 30px;
+}
+
+.gallery__image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
 /* ------------------------------------------------*/
 /* Features Socials End */
 /* ------------------------------------------------*/
