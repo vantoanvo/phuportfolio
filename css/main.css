@@ -4322,8 +4322,8 @@ form textarea:required:valid {
 .headline__author {
   display: block;
   text-align: right;
+  padding-right: 18rem; 
 }
-
 /* ------------------------------------------------*/
 /* Features Socials End */
 /* ------------------------------------------------*/
