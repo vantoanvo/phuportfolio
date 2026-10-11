@@ -3129,6 +3129,20 @@ form textarea:required:valid {
   }
 }
 
+/* Bold + highlighted menu items */
+.menu__link {
+  font-weight: 700;
+  color: #d8b47e;                         /* gold text on your dark navy */
+}
+.menu__link i {
+  color: #d8b47e;                         /* gold icons to match */
+}
+.menu__link:hover {
+  background: rgba(216, 180, 126, 0.15);  /* soft gold wash on hover */
+  color: #eef1f6;
+}
+
+
 /* ------------------------------------------------*/
 /* Blocks Menu End */
 /* ------------------------------------------------*/
@@ -4295,6 +4309,19 @@ form textarea:required:valid {
 #color-switcher {
   width: 32px;
   height: 32px;
+}
+.headline__title {
+  font-family: 'Caveat', cursive;
+  font-weight: 600;
+}
+.headline__title {
+  font-family: 'Caveat', cursive;
+  font-weight: 600;
+  font-size: 3.4rem;
+}
+.headline__author {
+  display: block;
+  text-align: right;
 }
 
 /* ------------------------------------------------*/
