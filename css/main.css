@@ -687,6 +687,14 @@ h1 {
   }
 }
 
+.h0__title {
+  font: normal 400 1.80rem/1.7 var(--_font-default);
+  color: #b9c0d4;
+  margin: 0;
+}
+
+
+
 h2 {
   font: normal 700 3.4rem/1.2 var(--_font-accent);
   color: var(--t-accent);
@@ -774,6 +782,8 @@ h2 {
     width: 1.3rem;
     height: 1.3rem;
   }
+  
+  
 }
 
 .h2__text {
