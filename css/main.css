@@ -4336,25 +4336,26 @@ form textarea:required:valid {
 }
 
 .video-block {
+  width: 100%;
   max-width: 650px;
   margin: 0 auto;
+  min-width: 0;        /* lets it shrink inside flex/grid parents */
+  overflow: hidden;    /* clips anything sticking out */
 }
 .video-embed {
+  position: relative;
   width: 100%;
-  aspect-ratio: 16 / 9;
+  padding-top: 56.25%; /* 16:9 height, from the width — always correct */
+  overflow: hidden;
 }
 .video-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   border: 0;
-  border-radius: 12px;
-}
-.video-block .video-title {
-  margin: 0.75rem auto 0;
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 600;
-  color: #eef1f6;
+  display: block;
 }
 /* ------------------------------------------------*/
 /* Features Socials End */
