@@ -4357,6 +4357,13 @@ form textarea:required:valid {
   border: 0;
   display: block;
 }
+
+.video-block .video-title {
+  margin: 0.75rem auto 0;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
 /* ------------------------------------------------*/
 /* Features Socials End */
 /* ------------------------------------------------*/
